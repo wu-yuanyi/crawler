@@ -24,7 +24,7 @@ def login(keyword):
         fhtml = open('./xipeng.html','w')
         fhtml.write(str_html)
         #print(str_html)
-        fhtml.close
+        fhtml.close()
     return 'ok'
 
 def nextpage(url):
@@ -35,7 +35,7 @@ def nextpage(url):
         str_html = f.read().decode('utf-8')
         f = open('./xipeng.html','w')
         f.write(str_html)
-        f.close
+        f.close()
     return 'ok'
 
 
